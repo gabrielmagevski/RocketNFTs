@@ -1,0 +1,50 @@
+header {
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 0px;
+
+    img {
+      width: 100%;
+      cursor: pointer;
+    }
+
+    .list {
+      display: flex;
+      align-items: center;
+      gap: 50px;
+      list-style: none;
+
+      li {
+        cursor: pointer;
+
+        &:hover {
+          filter: brightness(0.9);
+        }
+      }
+    }
+
+    .buttonMetamask {
+      display: flex;
+      align-items: center;
+      padding: 7px 15px;
+      
+      cursor: pointer;
+      border: none;
+      border-radius: 2px;
+      transition: filter 0.2s;
+
+      font-weight: 700;
+
+      img {
+        width: 17%;
+        margin-right: 10px;
+      }
+
+      &:hover {
+        filter: brightness(0.9);
+      }
+    }
+  }
+}
